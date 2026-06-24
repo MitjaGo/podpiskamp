@@ -11,10 +11,10 @@ logo_url = "https://www.adria-ankaran.si/app/uploads/2025/10/logo-Adria.jpg"
 Adria = "ADRIA Turistično podjetje d.o.o."
 Adres = "Jadranska cesta 25, SI-6280 Ankaran, Slovenija"
 
-facebook = "https://www.facebook.com/AdriaAnkaranResort/"
-instagram = "https://www.instagram.com/adriaankaranresort/"
+facebook = "https://www.facebook.com/campadria/"
+instagram = "https://www.instagram.com/kamp.adria.ankaran/"
 youtube = "https://www.youtube.com/@adriaankaran1577"
-website = "https://www.adria-ankaran.si"
+website = "https://www.adria-ankaran.si/kamp-adria-ankaran/"
 
 primary_color = "#1f6db5"
 text_color = "#000000"
@@ -47,15 +47,8 @@ else:
 job_title_option = st.selectbox(
     "Izberi naziv",
     [
-        "Rezervacije / Booking",
-        "Strokovni sodelavec za prodajo / Sales Manager",
-        "Vodja rezervacijskega centra / Booking manager",
+        "Vodja Kampa / Campsite Manager",
         "Vodja recepcije / Head of front office",
-        "Pomočnik direktorja za področje prodaje in marketinga / Assistant Director of Sales and Marketing", 
-        "Vodja leisure Leisure / Sales Manager"
-        "Vodja Hotela / Hotel Manager",
-        "Managing Director / Direktor",
-        "Vodja Kuhinje",
         "Recepcija / Reception",
         "Izberi lastni naziv delovnega mesta",
     ]
@@ -66,7 +59,7 @@ if job_title_option == "Izberi lastni naziv delovnega mesta":
 else:
     job_title = job_title_option
 
-phone = st.text_input("Telefon (Vnesi številko npr 41 454 444 s predledki)","+386")
+phone = st.text_input("Telefon (Vnesi številko npr 41 454 444 s predledki, če hočeš dodati še mobitel po prvi številki vtipkaj M: +386 in tvojo številko)","+386")
 
 # Check if phone is empty
 if not phone.strip():
@@ -111,15 +104,15 @@ if st.button("Generiraj e-podpis"):
             {Adres}
           <div style="margin-top:10px;">
             <a href="{facebook}" style="margin-right:8px;color:#ffffff;">
-              <img src="https://raw.githubusercontent.com/MitjaGo/podpis/main/icons/fb.png
+              <img src="https://raw.githubusercontent.com/MitjaGo/podpiskamp/main/icons/fb.png
 " width="22.5">
             </a>
             <a href="{instagram}" style="margin-right:8px;color:#ffffff;">
-              <img src="https://raw.githubusercontent.com/MitjaGo/podpis/main/icons/it.png
+              <img src="https://raw.githubusercontent.com/MitjaGo/podpiskamp/main/icons/it.png
 " width="22">
             </a>
             <a href="{youtube}">
-              <img src="https://raw.githubusercontent.com/MitjaGo/podpis/main/icons/yt.png
+              <img src="https://raw.githubusercontent.com/MitjaGo/podpiskamp/main/icons/yt.png
 " width="22.5">
             </a>
           </div>
