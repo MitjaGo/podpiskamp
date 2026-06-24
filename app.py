@@ -6,7 +6,7 @@ st.set_page_config(page_title="Adria Signature Generator", layout="centered")
 # ==========================================================
 # COMPANY SETTINGS
 # ==========================================================
-logo_url = "https://www.adria-ankaran.si/app/uploads/2025/10/logo-Adria.jpg"
+logo_url = "https://www.adria-ankaran.si/app/uploads/2026/06/Adria-Ankaran-CGP-Camping-Logo.png"
 
 Adria = "ADRIA Turistično podjetje d.o.o."
 Adres = "Jadranska cesta 25, SI-6280 Ankaran, Slovenija"
