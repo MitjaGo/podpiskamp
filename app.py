@@ -124,8 +124,7 @@ if st.button("Generiraj e-podpis"):
     </table>
 
 <div style="font-family: Arial; font-size:10px; color:#808080; width:100%; max-width:600px; border-collapse:collapse;">
-  * To e-poštno sporočilo vam pošiljam zdaj, saj mi to ustreza. 
-  Ne pričakujem, da se boste nanj odzvali izven svojega običajnega delovnega časa.
+ *V okviru sprejetega  142.a člena ZDR-1 ne pričakujem, da se boste na to sporočilo odzvali izven vašega običajnega delovnega časa.
 </div>
 """
     # ==========================================================
